@@ -364,7 +364,7 @@ body{
 
 
   .navbar{
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     overflow: visible;
     display: flex;
@@ -375,8 +375,8 @@ body{
   }
 
   .logo{
-    height: 9.5vh;
-    width: 9.5vh;
+    height: 7.5vh;
+    width: 7.5vh;
     padding: 0.25vh;
     padding-left: 8vh;
   }
@@ -522,12 +522,59 @@ h3{
 }
 
 .Events-title-page3{
+  text-align: center;
+  max-width: 12vw;
   background-color: cornflowerblue;
   color: white;
   font-size: 3vw;
   font-family: 'Permanent Marker', cursive;
   align-self: center;
   padding: 0vw 2vw;
+  margin: auto;
+}
+
+.overall-events-container{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 10vh;
+  max-width: 95%;
+  /* overflow: scroll; */
+  flex-wrap: wrap;
+
+}
+
+.events-container{
+    width: 20%;
+    margin: auto;
+}
+
+.events-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.events-item{
+  font-size: 2vw;
+  border-radius: .4em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: left;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: cornflowerblue;
+  color: white;
+
+}
+
+.collage-container{
+  width: 60%;
+  border: 2px solid cornflowerblue;
 }
 
 .page4{
@@ -539,15 +586,94 @@ h3{
 }
 
 .Team-title-page4{
+  max-width:30%;
   background-color: cornflowerblue;
   color: white;
   font-size: 3vw;
   font-family: 'Permanent Marker', cursive;
   align-self: center;
   padding: 0vw 2vw;
+  margin: auto;
 }
 
+.Team-container-page4{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 20vh;
+}
 
+/* // */
+.main{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: none;
+}
+
+.profile-card{
+  position: relative;
+  width: 200px;
+  height: 200;
+  background: none;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px rgba(15, 15, 15, 0.4);
+  transition: 0.1s;
+  margin: 0.25px;
+
+}
+.profile-card:hover{
+  border-radius: 10px;
+  height: 260px;
+}
+.profile-card .img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  transition: 1s;
+}
+.profile-card:hover img{
+  transform: translateY(-60px);
+
+}
+.caption{
+  text-align: center;
+  transform: translateY(-80px);
+  opacity: 0;
+}
+.profile-card:hover .caption{
+  opacity: 1;
+}
+.caption h3{
+  font-size: 21px;
+  color: #d76e1d;
+
+}
+.caption p{
+ font-size: 17px;
+ color: #d76e1d; 
+ margin: 2px 0 6px 0;
+}
+.caption .social-links{
+  color: #ff2b2bd1;
+  margin-right: 8px;
+  font-size: 18px;
+}
+social-links a:hover{
+  color: #d76e1d;
+
+}
+.img img{
+  width: 100%;
+  border-radius: 50%;
+
+}
+
+/* // */
 .page5{
   height: 100vh;
     width: 100%;
@@ -645,4 +771,12 @@ h3{
   font-family: 'Permanent Marker', cursive;
   align-self: center;
   padding: 0vw 2vw;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.footer{
+  height: 40vh;
+  width: 100%;
+  background-color: cornflowerblue;
 }
