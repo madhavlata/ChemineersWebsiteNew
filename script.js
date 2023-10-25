@@ -26,3 +26,85 @@ document.querySelectorAll('.buttondown').forEach(buttondown => {
     window.scrollBy(0, scrollDistance);
   });
 });
+
+
+
+var item = document.getElementById("events-item-2");
+item.addEventListener("mouseover", funcadd1, false);
+item.addEventListener("mouseout", funcrem1, false);
+image1 = document.getElementById("collage-image-1");
+image2 = document.getElementById("collage-image-2");
+image3 = document.getElementById("collage-image-3");
+image4 = document.getElementById("collage-image-4");
+
+function funcadd1()
+{ 
+  image1.classList.add("happyhour-image-1");
+  image2.classList.add("happyhour-image-2");
+  image3.classList.add("happyhour-image-3");
+  image4.classList.add("happyhour-image-4");
+}
+
+function funcrem1()
+{  
+  image1.classList.remove("happyhour-image-1");
+  image2.classList.remove("happyhour-image-2");
+  image3.classList.remove("happyhour-image-3");
+  image4.classList.remove("happyhour-image-4");
+}
+
+var item = document.getElementById("events-item-3");
+item.addEventListener("mouseover", funcadd2, false);
+item.addEventListener("mouseout", funcrem2, false);
+image1 = document.getElementById("collage-image-1");
+image2 = document.getElementById("collage-image-2");
+image3 = document.getElementById("collage-image-3");
+image4 = document.getElementById("collage-image-4");
+
+function funcadd2()
+{  // not needed since item is already global, 
+   // I am assuming this is here just because it's sample code?
+   // var item = document.getElementById("button"); 
+   image1.classList.add("talksandworkshops-image-1");
+   image2.classList.add("talksandworkshops-image-2");
+   image3.classList.add("talksandworkshops-image-3");
+   image4.classList.add("talksandworkshops-image-4");
+
+}
+
+function funcrem2()
+{  
+  image1.classList.remove("talksandworkshops-image-1");
+  image2.classList.remove("talksandworkshops-image-2");
+  image3.classList.remove("talksandworkshops-image-3");
+  image4.classList.remove("talksandworkshops-image-4");
+
+}
+
+var item = document.getElementById("events-item-4");
+item.addEventListener("mouseover", funcadd3, false);
+item.addEventListener("mouseout", funcrem3, false);
+image1 = document.getElementById("collage-image-1");
+image2 = document.getElementById("collage-image-2");
+image3 = document.getElementById("collage-image-3");
+image4 = document.getElementById("collage-image-4");
+
+function funcadd3()
+{  // not needed since item is already global, 
+   // I am assuming this is here just because it's sample code?
+   // var item = document.getElementById("button"); 
+   image1.classList.add("simutechprojects-image-1");
+   image2.classList.add("simutechprojects-image-2");
+   image3.classList.add("simutechprojects-image-3");
+   image4.classList.add("simutechprojects-image-4");
+
+}
+
+function funcrem3()
+{  
+  image1.classList.remove("simutechprojects-image-1");
+  image2.classList.remove("simutechprojects-image-2");
+  image3.classList.remove("simutechprojects-image-3");
+  image4.classList.remove("simutechprojects-image-4");
+
+}
