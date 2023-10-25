@@ -108,3 +108,15 @@ function funcrem3()
   image4.classList.remove("simutechprojects-image-4");
 
 }
+
+
+window.addEventListener(
+  "scroll",
+  () => {
+    document.body.style.setProperty(
+      "--scroll",
+      window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+    );
+  },
+  false
+);
