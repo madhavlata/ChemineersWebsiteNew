@@ -922,8 +922,67 @@ h3{
   margin: auto;
 }
 
+.recent-sessions-container{
+  height: 75vh;
+  margin-top: 10vh;
+  display: flex;  
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.elem {
+  height: 70%;
+  width: 26%;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+}
+
+.elem h2{
+  height: 100%;
+  width: 100%;
+  background-color: cornflowerblue;
+  display: flex;
+  color: #fff;
+  font-weight: 800;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5vw;
+  position: absolute;
+  z-index: 10;
+  transition: all ease 0.5s;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.elem img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  scale:1.1;
+  transition: all ease 0.5s;
+}
+.elem:hover h2{
+  display: none;
+  color: #000;
+  background-color: transparent;
+}
+.elem:hover img{
+  scale:1;
+}
+
 .footer{
   height: 40vh;
   width: 100%;
   background-color: cornflowerblue;
+  
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3% 0;
+  color: #fff;
 }

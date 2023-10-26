@@ -120,3 +120,26 @@ window.addEventListener(
   },
   false
 );
+windowheight = document.documentElement.clientHeight;
+
+Home = document.getElementById("Home");
+Home.addEventListener('click', function() {
+  scrollTo(0, 0);
+})
+
+AboutUs = document.getElementById("AboutUs");
+AboutUs.addEventListener('click', function() {
+  scrollTo(0, (windowheight/0.97));
+})
+
+Events = document.getElementById("Events");
+
+Events.addEventListener('click', function() {
+  scrollTo(0, ((2*windowheight)/1.01));
+})
+
+Blogs = document.getElementById("Blogs");
+
+Blogs.addEventListener('click', function() {
+  scrollTo(0, (4*windowheight/0.99));
+})
