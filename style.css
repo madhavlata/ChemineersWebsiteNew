@@ -4,14 +4,18 @@
 }
 
 body{
-
+  background-image: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .landing-page{
     height: 100vh;
     width: 100%;
     position: relative;
-    background-image: url(./assets/background.jpg);
+    /* background-image: url(./assets/background.jpg); */
     object-fit: cover;
 }
 
@@ -358,7 +362,7 @@ body{
     height: 100vh;
     width: 100%;
     position: relative;
-    background-image: url(./assets/background.jpg);
+    /* background-image: url(./assets/background.jpg); */
     object-fit: cover;
   }
 
@@ -371,7 +375,7 @@ body{
     flex-direction: row;
     position: relative;
     z-index: 99;
-    background-image: url(./assets/background.jpg);
+    /* background-image: url(./assets/background.jpg); */
   }
 
   .logo{
@@ -517,7 +521,7 @@ h3{
   height: 100vh;
     width: 100%;
     position: relative;
-    background-image: url(./assets/background.jpg);
+    /* background-image: url(./assets/background.jpg); */
     object-fit: cover;
 }
 
@@ -697,7 +701,7 @@ h3{
   height: 100vh;
     width: 100%;
     position: relative;
-    background-image: url(./assets/background.jpg);
+    /* background-image: url(./assets/background.jpg); */
     object-fit: cover;
 }
 
@@ -825,7 +829,7 @@ h3{
   height: 100vh;
     width: 100%;
     position: relative;
-    background-image: url(./assets/background.jpg);
+    /* background-image: url(./assets/background.jpg); */
     object-fit: cover;
   display: flex;
   flex-direction: column;
@@ -907,7 +911,7 @@ h3{
   height: 100vh;
     width: 100%;
     position: relative;
-    background-image: url(./assets/background.jpg);
+    /* background-image: url(./assets/background.jpg); */
     object-fit: cover;
 }
 
