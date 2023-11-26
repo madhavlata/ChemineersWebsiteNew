@@ -1,0 +1,36 @@
+.carousel-item img{
+    height:90vh;
+}
+
+.event .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: #4c4c81 !important;
+    color: white;
+    height: 270px;
+    border-radius: 30px !important;
+}
+.card .col-md-8{
+    height: 270px;
+    
+}
+.card .card-body{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card .col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    height: 150px;
+    width: 90%;
+    margin: 10px;
+}

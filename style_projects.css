@@ -1,0 +1,132 @@
+/* Navbar */
+.navbar-collapse
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.navbar-brand img{
+    height: 25px;
+}
+.navbar-nav .nav-link {
+    color: white; 
+    text-decoration: none !important;
+  }
+.navbar-brand{
+    color: white;
+}
+.navbar {
+    background-color: #020261;
+  }
+.nav-item a:hover{
+    text-decoration: none;
+    color: white; 
+}
+
+.nav-item:hover{
+    background-color: #525296; 
+}
+.navbar-nav .nav-item.active .nav-link {
+    background-color: #1000f0;
+}
+.navbar-brand:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/* background */
+/* .background{
+    width: 100vw;
+    max-height: 100vh;
+} */
+/* carousel */
+.carousel{
+    margin-bottom: 10px;
+}
+.carousel img{
+    border-radius: 5px;
+}
+
+/* content */
+.content h1{
+    text-align: center;
+    font-size: 8rem;
+    color: #020261;
+}
+.projects .col{
+    display: flex;
+    justify-content: center;
+}
+.projects .carousel img{
+    height: 200px;
+}
+.col{
+    padding: 20px;
+    
+}
+.card-body .btn{
+    color: white;
+    background-color: #020261;
+}
+.card{
+    background-color:#4c4c81 !important;
+    color: white;
+    padding: 10px;
+}
+/* footer */
+.footer
+{
+    background-color: #020261;
+    height: 200px;
+}
+.footer .smedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .loc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.footer .media{
+    height: 150px;
+}
+
+/* Sliding */
+.slide-right, .slide-left {
+    width: 100%;
+  }
+  
+  /***** Slide Right *****/
+  .slide-right {
+    animation: 3s slide-right;
+  }
+  @keyframes slide-right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  
+  /***** Slide Left *****/
+  .slide-left {
+    animation: 3s slide-left;
+  }
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  
