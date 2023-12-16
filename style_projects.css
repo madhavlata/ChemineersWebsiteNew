@@ -1,3 +1,13 @@
+html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    overflow: hidden;
+}
 /* Navbar */
 .navbar-collapse
 {
@@ -54,7 +64,7 @@
 /* content */
 .content h1{
     text-align: center;
-    font-size: 8rem;
+    font-size: 8vw;
     color: #020261;
 }
 .projects .col{
@@ -81,7 +91,8 @@
 .footer
 {
     background-color: #020261;
-    height: 200px;
+    height: fit-content;
+    min-height: 200px;
 }
 .footer .smedia{
     display: flex;
