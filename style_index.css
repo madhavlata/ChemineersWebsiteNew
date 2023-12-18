@@ -1,12 +1,13 @@
 .main-carousel img {
-  height: 100vh;
+  max-height: 100vh !important ;
+  height: 50vw !important;
   width: 100vw;
   opacity: 0.6;
 }
 
 .carousel-caption {
   position: fixed;
-  top: 30vh;
+  top: 150px;
 }
 
 .carousel-caption h1 {
