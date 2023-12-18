@@ -10,7 +10,7 @@
 }
 
 .carousel-caption h1 {
-  font-size: 7rem;
+  font-size: 7.5vw;
   display: inline-block;
   animation: pulse 2s forwards;
 }
