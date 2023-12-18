@@ -45,7 +45,9 @@
 body {
   background-color: #000;
 }
-
+.homepage-card .row .col{
+  min-height: 100%;
+}
 .ag-courses_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,9 +64,9 @@ body {
 .ag-courses_item {
   -ms-flex-preferred-size: calc(33.33333% - 30px);
   flex-basis: calc(33.33333% - 30px);
-
+  background-color: #280261;
   margin: 0 15px 30px;
-
+  min-height: 100%;
   overflow: hidden;
   border-radius: 28px;
 }
@@ -72,8 +74,6 @@ body {
 .ag-courses-item_link {
   display: block;
   padding: 30px 20px;
-  background-color: #280261;
-
   overflow: hidden;
 
   position: relative;

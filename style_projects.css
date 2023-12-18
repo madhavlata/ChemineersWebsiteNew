@@ -110,6 +110,12 @@ body{
     color: white;
     flex-direction: column;
 }
+.footer .loc div{
+    text-align: center;
+}
+.footer .loc b{
+    text-align: center;
+}
 .footer .loc div a{
     text-decoration: none;
     cursor: pointer;
