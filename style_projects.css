@@ -9,6 +9,11 @@ body{
     overflow: hidden;
 }
 /* Navbar */
+.transparent{
+    background-color: transparent !important;
+    /* opacity: 0.5; */
+}
+
 .navbar-collapse
 {
     display: flex;
@@ -24,8 +29,9 @@ body{
     width: 40px;
 }
 .navbar-nav .nav-link {
-    color: white; 
+    color: white !important; 
     text-decoration: none !important;
+    font-weight: 800;
   }
 .navbar-brand{
     color: white;
@@ -33,16 +39,23 @@ body{
 .navbar-dark {
     background-color: #020261;
   }
-.nav-item a:hover{
+.changePosition{
+    position: absolute !important;
+}
+@media screen and (max-width: 992px){
+    .navbar-collapse{
+        justify-content: flex-start!important;
+    }
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.nav-item:not(.active) .nav-link:hover{
+    opacity:0.2 !important;
     text-decoration: none;
-    color: white; 
 }
-
-.nav-item:hover{
-    background-color: #525296; 
-}
-.navbar-nav .nav-item.active .nav-link {
-    background-color: #1000f0;
+.navbar-nav .active {
+    opacity: 0.6!important;
 }
 .navbar-brand:hover{
     text-decoration: none;
@@ -57,6 +70,7 @@ body{
 /* carousel */
 .carousel{
     margin-bottom: 10px;
+    /* opacity: 1 !important; */
 }
 .carousel img{
     border-radius: 5px;

@@ -7,7 +7,7 @@
 
 .carousel-caption {
   position: fixed;
-  top: 150px;
+  top: 10%;
 }
 
 .carousel-caption h1 {
@@ -17,11 +17,11 @@
 }
 
 .one {
-  color: orange;
+  color: #b5334f;
 }
 
 .two {
-  color: rgb(0, 187, 255);
+  color: #b5334f;
 }
 .three{
   color: #020261;
@@ -108,7 +108,7 @@ body {
 .ag-courses-item_bg {
   height: 128px;
   width: 128px;
-  background-color: #020261;
+  background-color: #280261;
 
   z-index: 1;
   position: absolute;
@@ -124,7 +124,7 @@ body {
 
 .content1 h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 5vw;
   color: #020261;
 }
 

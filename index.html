@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage - Chemineers Society</title>
+    <link rel="icon" href="assets/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style_events.css">
     <link rel="stylesheet" href="style_projects.css">
     <link rel="stylesheet" href="style_index.css">
@@ -42,7 +43,7 @@
                         <a class="nav-link" href="team.html">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Chemineers_Constitution.pdf">Constitution</a>
+                        <a class="nav-link" href="Chemineers_Constitution.pdf" target="_blank">Constitution</a>
                     </li>
                     <li class="nav-item disabled">
                         <a class="nav-link disabled" href="#">Exergy</a>
@@ -61,16 +62,18 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active main-carousel">
-                <img src="assets/homepage/carousel1.jpeg" class="d-block w-100 img-fluid" alt="...">
-                <div class="carousel-caption d-md-block">
-                    <h1 class="carousel-main-text"><span class="one">Chemineers</span><span class="two"> Society</span><br><span class="three">IIT KANPUR</span>
+                <img src="assets/homepage/c.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-flex justify-content-center align-items-center flex-column">
+                    <h1 class="carousel-main-text"><span class="one">Chemineers</span><span class="two">
+                            Society</span><br><span class="three">IIT KANPUR</span>
                     </h1>
+                    <a href="#section1" class="btn btn-outline-light" style="width: 20vw; border: 2px solid #020261; color: #020261; font-size: 1vw; "><b>ABOUT US</b></a>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="container-fluid">
+ 
+    <div class="container-fluid" id="section1">
         <div class="container-fluid content1">
             <h1>ABOUT US</h1>
         </div>
@@ -84,9 +87,9 @@
                     <div href="#" class="ag-courses-item_link">
                         <div class="ag-courses-item_bg"></div>
                         <div class="ag-courses-item_title">
-                            <h2>What we do?</h2>
-                            <p class="ag-courses-item_body">Our society continuously organizes several activities to
-                                promote cultural interactions and overall development of our department's students.</p>
+                            <h2>Who are we?</h2>
+                            <p class="ag-courses-item_body">Our society is a student body aiming to promote intellectual, academic, and cultural activities among students of our Department and help them foster their overall development.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -97,9 +100,8 @@
                         <div class="ag-courses-item_bg   ag-courses_item1"></div>
                         <div class="ag-courses-item_title">
                             <h2>How we do it?</h2>
-                            <p>The society conducts various departmental events. These
-                                events may include the Happy Hours, Technical workshops, Freshers Party, Alumni Talks,
-                                Farewell Party, Sports tournaments, etc</p>
+                            <p>The society organizes a variety of departmental events, including Happy Hours, Technical Workshops, Freshers Party, Alumni Talks, Farewell Party, Sports Tournaments, Higher Studies Sessions, and the Chemical Engineering Fest- ‘EXERGY’.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -131,10 +133,11 @@
 
     <main class="main container">
 
-        <section class="card-area row" >
+        <section class="card-area row">
 
             <!-- Card: City -->
-            <section class="card-section col d-flex justify-content-center align-content-center" data-aos="slide-right" data-aos-duration="1000">
+            <section class="card-section col d-flex justify-content-center align-content-center" data-aos="slide-right"
+                data-aos-duration="1000">
                 <div class="card1">
                     <div class="flip-card">
                         <div class="flip-card__container">
@@ -187,7 +190,8 @@
             </section>
 
             <!-- Card: Ski -->
-            <section class="card-section col d-flex justify-content-center align-content-center" data-aos="slide-right" data-aos-duration="1000">
+            <section class="card-section col d-flex justify-content-center align-content-center" data-aos="slide-right"
+                data-aos-duration="1000">
                 <div class="card1">
                     <div class="flip-card">
                         <div class="flip-card__container">
@@ -235,7 +239,8 @@
             </section>
 
             <!-- Card: Beach -->
-            <section class="card-section col d-flex justify-content-center align-content-center" data-aos="slide-left" data-aos-duration="1000">
+            <section class="card-section col d-flex justify-content-center align-content-center" data-aos="slide-left"
+                data-aos-duration="1000">
                 <div class="card1">
                     <div class="flip-card">
                         <div class="flip-card__container">
@@ -287,7 +292,8 @@
             </section>
 
             <!-- Card: Camping -->
-            <section class="card-section col d-flex justify-content-center align-content-center" data-aos="slide-left" data-aos-duration="1000">
+            <section class="card-section col d-flex justify-content-center align-content-center" data-aos="slide-left"
+                data-aos-duration="1000">
                 <div class="card1">
                     <div class="flip-card">
                         <div class="flip-card__container">
@@ -453,7 +459,7 @@
                     </ul>
                 </div>
             </div>
-            
+
 
         </div>
     </div>
@@ -546,7 +552,7 @@
         </div>
     </div>
 
-    <script src="scrape\scrapescript.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
@@ -554,6 +560,7 @@
     <script>
         AOS.init();
     </script>
+    <script src="script1.js"></script>
 </body>
 
 </html>
