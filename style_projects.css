@@ -13,6 +13,9 @@ body{
     background-color: transparent !important;
     /* opacity: 0.5; */
 }
+.sup{
+    background: transparent;
+}
 
 .navbar-collapse
 {
@@ -38,8 +41,14 @@ body{
 }
 .navbar-dark {
     background-color: #020261;
+    transition-property:background-color;
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
   }
 .changePosition{
+    transition-property:background-color;
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
     position: absolute !important;
 }
 @media screen and (max-width: 992px){
@@ -49,6 +58,7 @@ body{
 }
 .navbar-collapse{
     justify-content: flex-end;
+
 }
 .nav-item:not(.active) .nav-link:hover{
     opacity:0.2 !important;
@@ -168,5 +178,18 @@ body{
     to {
       margin-left: 0%;
     }
+  }
+  
+  .arch{
+    background-color:#4c4c81 !important;
+    height: 144px;
+    color:white;
+    padding: 20px;
+    border-radius:5px ;
+  }
+  .arch:hover{
+    color:black;
+    transition: all 0.3s;
+
   }
   
